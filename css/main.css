@@ -1,0 +1,383 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+.header {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 20%, rgba(0, 212, 255, 1) 63%);
+    padding: 40px 0; 
+}
+
+.container {
+    width: 90%; 
+    max-width: 1024px; 
+    margin: 0 auto;
+}
+
+.wrapper-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.offer {
+    width: 50%; 
+    padding: 20px; 
+}
+
+.offer__title {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.offer__span {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.offer__text {
+    font-size: 15px;
+}
+
+.btn {
+    display: block;
+    width: 25%;
+    height: 55px;
+    background-color: rgb(221, 221, 31);
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-img {
+    width: 35%; 
+}
+
+.center {
+    margin-bottom: 20px;
+    padding: 40px 0; 
+}
+
+.container1 {
+    width: 90%; 
+    max-width: 1024px; 
+    margin: 0 auto;
+}
+
+.center__header {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.center__wrapper-inner {
+    display: flex;
+    height: auto; 
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px; 
+}
+
+.item {
+    text-align: center;
+    width: 30%; 
+    height: auto; 
+    padding: 10px; 
+}
+
+.center__span {
+    color: gray;
+}
+
+.bottom {
+    background-color: rgb(212, 212, 212);
+    height: auto; 
+}
+
+.container2 {
+    width: 90%; 
+    max-width: 1024px; 
+    margin: 0 auto;
+}
+
+.bottom__header {
+    text-align: center;
+    padding: 30px;
+}
+
+.bottom__wrapper-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 20px auto;
+}
+
+.item1 {
+    text-align: center;
+    height: auto; 
+}
+
+.bottom__name,
+.bottom__email,
+.bottom__telephone,
+.bottom__question {
+    width: 80%; 
+    height: 30px;
+    padding: 15px;
+}
+
+.btn1 {
+    width: 100%; /* или 100%, в зависимости от ваших предпочтений */
+    height: 45px;
+    background-color: rgb(221, 221, 31);
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+    max-width: 80%; /* Ограничение ширины */
+    display: block;
+}
+
+.class_footer {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 20%, rgba(0, 212, 255, 1) 63%);
+    height: 70px;
+}
+
+.container3 {
+    width: 90%; 
+    max-width: 1024px; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer {
+    color: white;
+    font-size: 75%;
+    padding-top: 30px;
+}
+
+@media (max-width: 1199px) {
+    .container, .container1, .container2, .container3 {
+        width: 90%; 
+    }
+
+    .wrapper-inner {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .offer {
+        width: 100%; 
+        text-align: center; 
+    }
+
+    .offer__title {
+        font-size: 22px; 
+    }
+
+    .offer__span {
+        font-size: 26px; 
+    }
+
+    .btn {
+        width: 60%; 
+        height: 50px; 
+    }
+
+    .header-img {
+        width: 80%; 
+    }
+
+    .center__wrapper-inner {
+        flex-direction: column; 
+    }
+
+    .item {
+        width: 80%; 
+        margin-bottom: 20px; 
+    }
+}
+
+@media (max-width: 991px) {
+    .container, .container1, .container2, .container3 {
+        width: 100%; 
+    }
+
+    .wrapper-inner {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .offer {
+        padding: 10px; 
+    }
+
+    .offer__title {
+        font-size: 20px; 
+    }
+
+    .offer__span {
+        font-size: 24px; 
+    }
+
+    .btn {
+        width: 100%; 
+        height: 45px; 
+    }
+
+    .header-img {
+        width: 70%; 
+    }
+
+    .center__wrapper-inner {
+        flex-direction: column;
+    }
+
+    .item {
+        width: 100%; 
+    }
+
+    .bottom__name,
+    .bottom__email,
+    .bottom__telephone,
+    .bottom__question {
+        width: 100%; 
+        height: 40px; 
+    }
+
+    .btn1 {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .offer__title {
+        font-size: 22px; 
+    }
+
+    .offer__span {
+        font-size: 26px; 
+    }
+
+    .btn {
+        height: 60px; 
+    }
+
+    .header-img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .item {
+        height: auto; 
+    }
+
+    .bottom__name,
+    .bottom__email,
+    .bottom__telephone,
+    .bottom__question {
+        height: 50px; 
+    }
+
+    .btn1 {
+        height: 50px; 
+    }
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .order-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin: 20px auto;
+    }
+    
+    /* Стили для полей ввода и кнопки */
+    .order-form input,
+    .order-form .btn {
+        width: 100%; /* На маленьких экранах элементы заполняют ширину */
+        max-width: 300px; /* Ограничение ширины */
+        height: 35px;
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    /* Секция с результатом */
+    #orderResult {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 16px;
+        color: #333;
+    }
+    .bottom__wrapper-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin: 20px auto;
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .bottom__wrapper-inner input {
+        width: 80%;
+        max-width: 300px;
+        height: 40px;
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    .btn1 {
+        width: 80%;
+        max-width: 300px;
+        height: 45px;
+        background-color: rgb(221, 221, 31);
+        font-weight: bold;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        margin-top: 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+}

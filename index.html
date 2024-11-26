@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Крутая компания</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="img/logo.png" alt="логотип" class="logo">
+            <div class="wrapper-inner">
+                <div class="offer">
+                    <h1 class="offer__title">С нашей помощью вы сможете создать то, о чем</h1>
+                    <span class="offer__span">желаете!</span>
+                    <p class="offer__text">Наши возможности + опыт позволят Вам добиться огромного успеха. Мы верим в вас! И знаем это на все 100%. Вас не остановить!</p>
+                    <a href="#" class="btn">Узнать больше...</a>
+                </div>
+                <img src="img/header-img.png" alt="header-img" class="header-img">
+            </div>
+        </div>
+    </header>
+
+    <div class="center">
+        <div class="container1">
+            <div class="center__header"><h2>Что Вам необходимо?</h2></div>
+            <div class="center__wrapper-inner">
+                <div class="item">
+                    <img src="img/f3.png" alt="f3" class="wrapper-inner__f3"><br>
+                    <b>Первый блок</b><br>
+                    <span class="center__span">Lorem ipsum dolor sit amet consectetur, adipisicing elit</span>
+                </div>
+                <div class="item">
+                    <img src="img/f4.png" alt="f4" class="wrapper-inner__f4"><br>
+                    <b>Второй блок</b><br>
+                    <span class="center__span">Lorem ipsum dolor sit amet consectetur, adipisicing elit</span>
+                </div>
+                <div class="item">
+                    <img src="img/f5.png" alt="f5" class="wrapper-inner__f5"><br>
+                    <b>Третий блок</b><br>
+                    <span class="center__span">Lorem ipsum dolor sit amet consectetur, adipisicing elit</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="container2">
+            <!-- Форма заказа продукта или услуги -->
+            <div class="bottom__header"><h2>Форма заказа продукта или услуги</h2></div>
+            <form id="orderForm" class="bottom__wrapper-inner">
+                <input type="text" class="bottom__name" id="productName" placeholder="Название продукта" required>
+                <input type="number" class="bottom__name" id="productQuantity" placeholder="Количество" min="1" required>
+                <input type="tel" class="bottom__name" id="userPhone" placeholder="Телефон (+7***-***-**-**)" pattern="^\+7\d{3}-\d{3}-\d{2}-\d{2}$" required>
+                <input type="email" class="bottom__name" id="userEmail" placeholder="Введите E-mail" required>
+                <button type="button" id="orderSubmit" class="btn1">Заказать</button>
+            </form>
+            <div id="orderResult"></div>
+
+            <!-- Форма заказа обратного звонка -->
+            <div class="bottom__header"><h2>Форма заказа обратного звонка</h2></div>
+            <form id="callbackForm" class="bottom__wrapper-inner">
+                <input type="text" class="bottom__name" placeholder="Имя" required>
+                <input type="email" class="bottom__email" placeholder="Введите свой E-mail" required>
+                <input type="tel" class="bottom__telephone" placeholder="Телефон" pattern="^\+7\d{3}-\d{3}-\d{2}-\d{2}$" required>
+                <input type="text" class="bottom__question" placeholder="Какой вопрос вас интересует?">
+                <button type="submit" class="btn1">Отправить вопрос!</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="class_footer">
+        <div class="container3">
+            <footer class="footer">&#169;Все на этом сайте запрещено</footer>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
