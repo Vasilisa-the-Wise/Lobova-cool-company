@@ -153,7 +153,7 @@ p {
 }
 
 .btn1 {
-    width: 100%; /* или 100%, в зависимости от ваших предпочтений */
+    width: 100%; 
     height: 45px;
     background-color: rgb(221, 221, 31);
     font-weight: bold;
@@ -161,7 +161,7 @@ p {
     text-align: center;
     text-decoration: none;
     margin-top: 15px;
-    max-width: 80%; /* Ограничение ширины */
+    max-width: 80%; 
     display: block;
 }
 
@@ -325,18 +325,17 @@ p {
         margin: 20px auto;
     }
     
-    /* Стили для полей ввода и кнопки */
+    
     .order-form input,
     .order-form .btn {
-        width: 100%; /* На маленьких экранах элементы заполняют ширину */
-        max-width: 300px; /* Ограничение ширины */
+        width: 100%; 
+        max-width: 300px; 
         height: 35px;
         padding: 10px;
         font-size: 15px;
         text-align: center;
     }
     
-    /* Секция с результатом */
     #orderResult {
         margin-top: 20px;
         text-align: center;
